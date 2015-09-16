@@ -1,16 +1,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "home_depot_styles/version"
+require "drop_in/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "home_depot_styles"
-  s.version     = HomeDepotStyles::VERSION
-  s.authors     = ["Aaron Triantafyllidis and Josh Kruck"]
-  s.email       = ["pair+azzamallow+jkruck@pivotallabs.com"]
-  s.summary     = 'Home Depot Styles.'
-  s.description = 'Home Depot Styles.'
+  s.name        = "DropIn"
+  s.version     = DropIn::VERSION
+  s.authors     = ["Paul Farino"]
+  s.email       = ["paul.farino1@gmail.com"]
+  s.summary     = 'Drop-In Styles'
+  s.description = 'Drop-In styles into your Rails Application'
 
   s.test_files = Dir["test/**/*"]
   s.files        = `git ls-files`.split("\n")

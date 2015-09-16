@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    home_depot_styles (0.0.2)
+    DropIn (0.0.2)
       rails (~> 4.2.3)
 
 GEM
@@ -102,7 +102,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  home_depot_styles!
+  DropIn!
   sqlite3
 
 BUNDLED WITH

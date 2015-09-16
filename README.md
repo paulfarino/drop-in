@@ -1,26 +1,28 @@
-# Home Depot Styles
+# Drop In
 
-Include Home Depot styles into your Rails Application!
+Include Drop In styles into your Rails Application!
 
 ## Installation
 
 In your Gemfile:
 ```
-gem 'home_depot_styles', git: 'git@github.com:thd-pivotal/home_depot_styles.git'
+gem 'drop_in', git: 'git@github.com:thd-pivotal/home_depot_styles.git'
 ```
 
 ## Usage
 
-Require the styles in application.css:
+Require the styles in application.scss:
 
 ```
 *= require_tree .
 *= require_self
-*= require home_depot_styles
+*= require drop_in
 ```
 
 ## Get the latest styles from the gem
 
 ```
-$ bundle update home_depot_styles
+$ bundle update drop_in
 ```
+-------------
+Brought to you by [Paul Farino](https://github.com/paulfarino)
