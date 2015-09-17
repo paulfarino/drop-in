@@ -1,12 +1,15 @@
 # Drop In
 
-Include Drop In styles into your Rails Application!
+A Ruby gem to inject styles into your Rails App!
 
 ## Installation
 
 In your Gemfile:
 ```
-gem 'drop_in', git: 'git@github.com:thd-pivotal/home_depot_styles.git'
+gem install DropIn
+```
+```
+gem 'DropIn', git: 'git@github.com:your path/drop-in.git'
 ```
 
 ## Usage
@@ -16,13 +19,13 @@ Require the styles in application.scss:
 ```
 *= require_tree .
 *= require_self
-*= require drop_in
+*= require DropIn
 ```
 
 ## Get the latest styles from the gem
 
 ```
-$ bundle update drop_in
+$ bundle update DropIn
 ```
 -------------
 Brought to you by [Paul Farino](https://github.com/paulfarino)
