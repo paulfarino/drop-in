@@ -8,6 +8,7 @@ In your Gemfile:
 ```
 gem install DropIn
 ```
+or
 ```
 gem 'DropIn', git: 'git@github.com:your_path/drop-in.git'
 ```
